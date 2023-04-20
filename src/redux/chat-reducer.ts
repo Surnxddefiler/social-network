@@ -20,7 +20,7 @@ let initialState: initialStateType={
         { id: 2 ,name: "Плесень", lastMessage:"да"}
     ],
     chatData:[
-        { id: 1 , personText: "Пошел нахуй"}
+        { id: 1 , personText: "не"}
     ],
     chatInput: 'haizenberg'
     

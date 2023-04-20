@@ -4,8 +4,8 @@ import { profileApi } from "../API/api"
 
 let initialState = {
     postData: [
-        { id: 1, message: "Сиськи орисы c гавняшкай" },
-        { id: 2, message: "Сиськи орисы c какишем" }
+        { id: 1, message: "hi" },
+        { id: 2, message: "bob" }
     ],
     profile: null,
     status: "",
