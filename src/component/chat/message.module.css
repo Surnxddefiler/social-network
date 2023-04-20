@@ -1,0 +1,24 @@
+.message{
+    grid-area: r;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 1fr;
+    background-color: white;
+    grid-template-areas:
+    "p c";
+}
+.people{
+    grid-area: p;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-right: 1px solid gray;
+}
+.chat{
+    position: relative;
+}
+.input{
+    position: absolute;
+    width: 80%;
+    bottom: 0;
+}

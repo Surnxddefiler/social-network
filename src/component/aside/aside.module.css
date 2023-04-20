@@ -1,0 +1,34 @@
+.aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-area: l;
+    background-color: white;
+}
+.aside div {
+  margin-top: 30%;
+  margin-bottom: 30%;
+  border-radius: 40px;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(232, 70, 252, 0.5130427170868348) 100%);
+  color: white;
+  text-transform: uppercase;
+  width: 80%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  transition-duration: 0.7s;
+  cursor: pointer;
+}
+.aside div:hover{
+   color: rgb(63, 94, 251);
+   transition-duration: 0.7s;
+   background: #e3e3e3;
+}
+.active{
+  font-size: 2rem;
+}
+a{
+    text-decoration: none;
+    color: white;
+}

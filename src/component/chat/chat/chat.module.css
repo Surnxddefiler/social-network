@@ -1,0 +1,58 @@
+.chat{
+  margin-top: 4%;
+  grid-area: c;
+  display: flex;
+  flex-direction: column;
+}
+
+.ava{
+  width: 50px;
+  border-radius: 50%;
+}
+.person__message{
+  display: flex;
+  align-items: center;
+}
+.person__text{
+  background-color: rgba(228, 223, 226, 0.8);
+  padding: 2%;
+  margin-left: 2%;
+  border-radius: 50px;
+}
+.my__message{
+  display: flex;
+  justify-content: flex-end;
+
+
+}
+.my__text{
+  color: white;
+  margin-right: 10%;
+  background-color: rgb(63, 94, 251);
+  padding: 2%;
+  border-radius: 50px;
+}
+.input{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 80%;
+}
+.button{
+  position: absolute;
+  bottom:0;
+  right: 0;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(232, 70, 252, 0.5130427170868348) 100%);
+  color: white;
+  text-transform: uppercase;
+  border: 0;
+  width: 110px;
+  height: 20px;
+  text-align: center;
+}
+.button:hover{
+  color: rgb(63, 94, 251);
+  transition-duration: 0.7s;
+  background: #e3e3e3;
+}

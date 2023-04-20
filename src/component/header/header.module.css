@@ -1,0 +1,17 @@
+
+.header__container img{
+    border-radius: 50%;
+    width: 50px;
+  }
+  .header__container{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .login{
+  }
+  .button{
+    
+    color: black;
+  }

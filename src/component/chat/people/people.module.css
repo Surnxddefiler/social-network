@@ -1,0 +1,32 @@
+.people{
+    grid-area: p;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-right: 1px solid gray;
+}
+.person{
+    margin-top: 10%;
+    display: flex;
+    margin-left: 5%;
+    color: black;
+    padding: 1%;
+    border-radius: 10px;
+}
+.person img{
+    width: 50px;
+    border-radius: 50%;
+}
+.name{
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+.info{
+    margin-left: 3%;
+}
+.active{
+    background-color: red;
+}
+.person:hover{
+    background-color: rgba(210, 206, 208, 0.53);
+}

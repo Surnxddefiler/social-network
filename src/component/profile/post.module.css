@@ -1,0 +1,23 @@
+.posts{
+  border: 3px solid palevioletred;
+  width: 90%;
+  border-radius: 30px;
+  display: flex;
+  margin-top: 5%;
+  padding: 4%;
+}
+.post__item{
+  display: flex;
+  align-items: center;
+}
+.post__item img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.post__text{
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 20px;
+  background-color: rgba(183, 183, 183, 0.42);
+}
